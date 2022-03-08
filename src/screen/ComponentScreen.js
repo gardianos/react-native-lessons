@@ -4,11 +4,15 @@ import React from "react";
 const ComponentScreen = () => {
   return (
     <View>
-      <Text>ComponentScreen</Text>
+      <Text style={styles.textStyle}>ComponentScreen</Text>
     </View>
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  textStyle: {
+    fontSize: 30,
+  },
+});
 
 export default ComponentScreen;
